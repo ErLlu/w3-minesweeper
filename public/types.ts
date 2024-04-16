@@ -1,6 +1,11 @@
-type square = {
+type Square = {
   hasMine: boolean;
   mineAround: number;
 };
 
-type board = square[];
+type Board = {
+  totalMines: 30;
+  numberOfRows: 15;
+  numberOfColumns: 15;
+  mineBoard: [];
+};
