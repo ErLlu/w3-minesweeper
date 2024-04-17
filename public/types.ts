@@ -4,8 +4,8 @@ type Square = {
 };
 
 type Board = {
-  totalMines: 30;
-  numberOfRows: 15;
-  numberOfColumns: 15;
+  totalMines: number;
+  numberOfRows: number;
+  numberOfColumns: number;
   mineBoard: [];
 };
