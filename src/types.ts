@@ -1,11 +1,11 @@
-type Square = {
+export type Square = {
   hasMine: boolean;
-  mineAround: number;
+  minesAround: number;
 };
 
-type Board = {
+export type Board = {
   totalMines: number;
   numberOfRows: number;
   numberOfColumns: number;
-  mineBoard: [];
+  mineBoard: number[];
 };
