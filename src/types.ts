@@ -1,11 +1,10 @@
-export type Square = {
+export interface Square {
   hasMine: boolean;
   minesAround: number;
-};
-
-export type Board = {
+}
+export interface Board {
   totalMines: number;
   numberOfRows: number;
   numberOfColumns: number;
   mineBoard: number[];
-};
+}
