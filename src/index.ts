@@ -4,5 +4,5 @@ const board: Board = {
   totalMines: 0,
   numberOfRows: 4,
   numberOfColumns: 4,
-  mineBoard: [],
+  Squares: [],
 };
