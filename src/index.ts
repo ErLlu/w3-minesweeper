@@ -6,3 +6,8 @@ const board: Board = {
   numberOfColumns: 4,
   Squares: [],
 };
+
+export const createBoard = (
+  numberOfRows: number,
+  numberOfColums: number,
+): Board => {};
