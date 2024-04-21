@@ -4,8 +4,7 @@ export interface Square {
 }
 
 export interface Board {
-  totalMines: number;
   numberOfRows: number;
   numberOfColumns: number;
-  Squares: Square[][];
+  squares: Square[][];
 }
